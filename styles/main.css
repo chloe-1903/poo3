@@ -1,0 +1,87 @@
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image:url(../images/fond2.jpg);
+  background-repeat:no-repeat;
+  background-position: right;
+  color:#453832;
+  font-style: italic;
+}
+
+.header {
+  border-bottom: 1px solid #1d0f07;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 14%;
+  border-radius:12px;
+  position: relative;
+  margin:0 0 10px 370px;
+  padding:5px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  margin: 10px;
+}
+
+a {
+  border:none;
+  padding:10px 3px 10px 3px;
+  border-radius:8px;
+  background: #dcdcd9;
+  font:bold 13px Arial;
+  color:#453832;
+}
+a:hover,
+a:focus {
+  background-color: #c5d4ff;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.infos a{
+  background:none;
+}
+
+@media screen  {
+  .jumbotron , .infos{
+    text-align: center;
+    border:none;
+    border-radius:8px;
+    padding:5px 200px 5px 200px;
+    background-color: #dcdcd9;
+    position: relative;
+    margin:0 400px 10px 0;
+  }
+
+  .contact {
+    text-align: center;
+    border:none;
+    border-radius:8px;
+    position: relative;
+    margin:0 400px 10px 0;
+  }
+
+  .jumbotron{
+    font-size: 40px;
+  }
+
+
+}

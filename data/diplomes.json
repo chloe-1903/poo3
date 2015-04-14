@@ -1,0 +1,5 @@
+[
+  {"nom":"SI3 (Sciences informatiques, 3ème année) ", "lieu":"Polytech Nice-Sophia Antipolis", "deb":2014,"fin":2015},
+  {"nom":"Peip (Parcours des écoles d'ingénieurs Polytech, 1ère et 2ème année)","lieu":"Polytech Nice-Sophia Antipolis" ,"deb":2012,"fin":2014},
+  {"nom":"bac S (mention bien)", "lieu":"Lycée du parc impérial, Nice","deb":2009,"fin":2012}
+]

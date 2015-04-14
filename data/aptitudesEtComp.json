@@ -1,0 +1,25 @@
+{"langues":[
+  {"langue":"Français", "niveau":"Langue maternelle"},
+  {"langue":"Anglais", "niveau":"Courant"},
+  {"langue":"Espagnol", "niveau":"Opérationnel"},
+  {"langue":"Chinois", "niveau":"Opérationnel"}
+],
+  "social":[
+    "Bon esprit d'équipe et capacité d'adaptation aux environnements multiculturels. ",
+    "Sens de l'organisation et aptitudes à la gestion de projet d'équipe (acquises à l'European Innovation Academy et en tant que responsable hébergement/restauration) ."
+  ],
+  "info":[
+    {"nom":"Web", "competences":["HTML", "CSS", "XML", "PHP", "Javascript"]},
+    {"nom":"Programmation", "competences":[ "Java", "C", "Python", "Shell Unix", "Assembleur ARM"]},
+    {"nom":"Systèmes d'exploitation", "competences":["Linux", "Windows"]},
+    {"nom":"Bureautique et multimédia", "competences":["Word", "Excel", "PowerPoint", "Adobe Illustrator", "PhotoShop" , "Gimp"]}
+  ],
+  "loisirs":[
+    "Parcours musical (piano) et sportif (natation).",
+    "Titulaire du permis B et véhiculée."
+  ],
+  "voyages":[
+    "Kenya", "Tanzanie", "Canada", "États-Unis", "Chine",
+    "Espagne", "Italie", "Portugal", "Angleterre", "Ireland", "Autriche", "Belgique"
+  ]
+}

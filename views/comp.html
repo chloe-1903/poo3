@@ -1,0 +1,35 @@
+<div class="infos">
+  <h2>Aptitudes et compétences personnelles</h2>
+  <b>Langues pratiquées:</b>
+  <ul ng-repeat="post in posts.langues">
+    <li>{{post.langue}} : {{post.niveau}}</li>
+  </ul>
+  <b>Aptitudes et compétences sociales : </b>
+  <ul ng-repeat="post in posts.social">
+    <li>{{post}}</li>
+  </ul>
+  <b>Aptitudes et compétences informatiques : </b>
+  <ul ng-repeat="post in posts.info">
+    <li> <u>{{post.nom}}:</u>  <ul ng-repeat="comp in post.competences" style="white-space: nowrap; display:inline-block;">  {{comp}}</ul> </li>
+  </ul>
+
+  <b>Loisirs et centres d’intérêts : </b>
+  <ul>
+    <li>{{posts.loisirs[0]}}</li>
+
+    <li>Intérêt pour la diversité des cultures –
+    <a href="#/comp"  class="travel" onmousedown="document.getElementById('voyages').style.display='block';">▼ Voyages ▼</a>
+    <div id="voyages" style="display:none;">
+      <ul ng-repeat="pays in posts.voyages">{{pays}}</ul>
+    </div>
+    </li>
+
+    <li> {{posts.loisirs[1]}}</li>
+
+  </ul>
+
+
+
+</div>
+
+
